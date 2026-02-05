@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+        <div>
+           <p>Inicio <input type="number" name="testeinicio" id="testeinicio" min="1"></p><br>
+           <p>Fim <input type="number" name="testefim" id="testefim" min="1"></p><br>
+            <p>Passo <input type="number" name="testepasso" id="testepasso" min="1"></p><br>
+            <input type="button" value="Contar" onclick="contar()">
+        </div>
+        <div>
+           <p id="mostrador">Preparando contagem</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Amanda Lima</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
